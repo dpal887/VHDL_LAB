@@ -83,6 +83,8 @@ signal e1,e2,e3,e4 																			: STD_LOGIC := '0';
 signal Q_out_seconds,Q_out_seconds_tens, Q_out_minutes, Q_out_Minutes_tens : STD_LOGIC_VECTOR(3 downto 0 ) := "0000";
 signal r, count 																				: STD_LOGIC := '0';
 signal loaded_value 																			: STD_LOGIC_VECTOR(15 downto 0);
+signal div_clk																					: STD_LOGIC;
+signal div_clk_count																			: INTEGER <= 0;
 
 	BEGIN
 --------------------------------------------------------------------------------------------
@@ -108,9 +110,7 @@ signal loaded_value 																			: STD_LOGIC_VECTOR(15 downto 0);
 	S 	: STOREREG		PORT MAP	(Data_In,Load,Clock,Loaded_value);
 --------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------	
---
---
---
+--Check if values are the same
 --------------------------------------------------------------------------------------------	
 	Comp : Comparator PORT MAP	(Loaded_value,Q_Out_Seconds,Q_Out_Seconds_tens,Q_out_Minutes,Q_out_Minutes_tens,Time_Out);
 --------------------------------------------------------------------------------------------
@@ -127,7 +127,24 @@ signal loaded_value 																			: STD_LOGIC_VECTOR(15 downto 0);
 	e2 <= e1 	when (Q_out_Seconds 			= "1001"	) 	else '0';
 	e3 <= e2 	when (Q_out_Seconds_tens 	= "0101"	) 	else '0';
 	e4 <= e3 	when (Q_out_Minutes			= "1001"	) 	else '0';
+--------------------------------------------------------------------------------------------
+--	Load a new value to count to if Load Enabled
 --------------------------------------------------------------------------------------------	
+	PROCESS(div_clk)
+		BEGIN
+			IF(rising_edge(div_clk)) THEN
+				IF (Load = '1') THEN
+					loaded_value <= Data_In;
+				ELSE
+					loaded_value <= loaded_value;
+				END IF;
+			END IF;
+	END PROCESS;
+--------------------------------------------------------------------------------------------	
+--------------------------------------------------------------------------------------------	
+	PROCESS(Clock)
+		BEGIN
+			div_clk_count += 1;
 	
 
 END ARCHITECTURE ARCH;

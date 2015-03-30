@@ -16,9 +16,8 @@ END Comparator;
 
 ARCHITECTURE Comparator_architecture OF Comparator IS
 
-
 BEGIN
 
-timer_out <= '1' WHEN P_Data = Count_four & Count_three & Count_two & Count_one;
+timer_out <= '1' WHEN P_Data = (Count_four & Count_three & Count_two & Count_one) else '0';
 
 END Comparator_architecture;

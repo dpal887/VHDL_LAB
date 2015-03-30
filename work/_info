@@ -2,195 +2,234 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\QuartusProjects\lab4
+dC:\QuartusProjects\lab4
 Ebcd2sevenseg
-Z1 w1427679275
-Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
-Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
-Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
-Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
-Z6 dC:\QuartusProjects\lab4
-Z7 8C:/QuartusProjects/lab4/BCD2SevenSeg.vhd
-Z8 FC:/QuartusProjects/lab4/BCD2SevenSeg.vhd
+Z0 w1427679275
+Z1 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\OEM\Documents\GitHub\VHDL_LAB
+Z6 8C:/Users/OEM/Documents/GitHub/VHDL_LAB/BCD2SevenSeg.vhd
+Z7 FC:/Users/OEM/Documents/GitHub/VHDL_LAB/BCD2SevenSeg.vhd
 l0
 L6
 VPXSU>l]gHzEafcj[Fh@N40
-Z9 OV;C;10.1d;51
+Z8 OV;C;10.1d;51
 32
-Z10 !s108 1427688325.905000
-Z11 !s90 -reportprogress|300|-work|work|C:/QuartusProjects/lab4/BCD2SevenSeg.vhd|
-Z12 !s107 C:/QuartusProjects/lab4/BCD2SevenSeg.vhd|
-Z13 o-work work -O0
-Z14 tExplicit 1
+Z9 !s108 1427707730.015000
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/OEM/Documents/GitHub/VHDL_LAB/BCD2SevenSeg.vhd|
+Z11 !s107 C:/Users/OEM/Documents/GitHub/VHDL_LAB/BCD2SevenSeg.vhd|
+Z12 o-work work -O0
+Z13 tExplicit 1
 !s100 eMYK7A:DO7=Vhd8NY01f22
 !i10b 1
 Aarc2
+R1
 R2
 R3
 R4
-R5
 DEx4 work 12 bcd2sevenseg 0 22 PXSU>l]gHzEafcj[Fh@N40
 l15
 L14
 VhgU5IXNDhAWcQJG2ezM[X1
-R9
+R8
 32
+R9
 R10
 R11
 R12
 R13
-R14
 !s100 V1080Pk543j9Of2dYi2S<3
 !i10b 1
 Ebcd_counter
-Z15 w1427163737
+Z14 w1427163737
+R1
 R2
 R3
 R4
 R5
-R6
-Z16 8C:/QuartusProjects/lab4/BCD_Counter.vhd
-Z17 FC:/QuartusProjects/lab4/BCD_Counter.vhd
+Z15 8C:/Users/OEM/Documents/GitHub/VHDL_LAB/BCD_Counter.vhd
+Z16 FC:/Users/OEM/Documents/GitHub/VHDL_LAB/BCD_Counter.vhd
 l0
 L6
 VR93D19biEk0=E_zIbkC]k1
-R9
+R8
 32
-Z18 !s108 1427688325.781000
-Z19 !s90 -reportprogress|300|-work|work|C:/QuartusProjects/lab4/BCD_Counter.vhd|
-Z20 !s107 C:/QuartusProjects/lab4/BCD_Counter.vhd|
+Z17 !s108 1427707729.867000
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/OEM/Documents/GitHub/VHDL_LAB/BCD_Counter.vhd|
+Z19 !s107 C:/Users/OEM/Documents/GitHub/VHDL_LAB/BCD_Counter.vhd|
+R12
 R13
-R14
 !s100 3hXlJgF4;m3N6FOTo4YU=2
 !i10b 1
 Aarch
+R1
 R2
 R3
 R4
-R5
 DEx4 work 11 bcd_counter 0 22 R93D19biEk0=E_zIbkC]k1
 l16
 L14
 V5zACR;Z>aQ:NTQg;7F_;e1
-R9
+R8
 32
+R17
 R18
 R19
-R20
+R12
 R13
-R14
 !s100 E39dBRJk`@Sfl?NDEJ1d40
 !i10b 1
 Ecomparator
-Z21 w1427683057
+Z20 w1427707592
+R3
 R4
 R5
-R6
-Z22 8C:/QuartusProjects/lab4/Comparator.vhd
-Z23 FC:/QuartusProjects/lab4/Comparator.vhd
+Z21 8C:/Users/OEM/Documents/GitHub/VHDL_LAB/Comparator.vhd
+Z22 FC:/Users/OEM/Documents/GitHub/VHDL_LAB/Comparator.vhd
 l0
 L6
 V_SiiI7?g0W^TLcS8ba<@42
-R9
+R8
 32
-Z24 !s108 1427688326.006000
-Z25 !s90 -reportprogress|300|-work|work|C:/QuartusProjects/lab4/Comparator.vhd|
-Z26 !s107 C:/QuartusProjects/lab4/Comparator.vhd|
+Z23 !s108 1427707730.168000
+Z24 !s90 -reportprogress|300|-work|work|C:/Users/OEM/Documents/GitHub/VHDL_LAB/Comparator.vhd|
+Z25 !s107 C:/Users/OEM/Documents/GitHub/VHDL_LAB/Comparator.vhd|
+R12
 R13
-R14
 !s100 YP1bFb]?HX8o0dLO?22al1
 !i10b 1
 Acomparator_architecture
+R3
 R4
-R5
 DEx4 work 10 comparator 0 22 _SiiI7?g0W^TLcS8ba<@42
-l20
+l19
 L17
-VLLNIn_1?5nJ:n06l_:PgS2
-R9
+V^OH:EDUEkZ8MPE@3m>CLB1
+R8
 32
+R23
 R24
 R25
-R26
+R12
 R13
-R14
-!s100 =>4]VinJnN7nP4ch5oV=51
+!s100 C42NjT>dh1D5alNYTnNf?1
 !i10b 1
 Estorereg
-Z27 w1427678189
+Z26 w1427678189
+R1
 R2
 R3
 R4
 R5
-R6
-Z28 8C:/QuartusProjects/lab4/STOREREG.vhd
-Z29 FC:/QuartusProjects/lab4/STOREREG.vhd
+Z27 8C:/Users/OEM/Documents/GitHub/VHDL_LAB/STOREREG.vhd
+Z28 FC:/Users/OEM/Documents/GitHub/VHDL_LAB/STOREREG.vhd
 l0
 L6
 VXz?a[h9[Tzce7z4]Ed:5^0
-R9
+R8
 32
-Z30 !s108 1427688326.104000
-Z31 !s90 -reportprogress|300|-work|work|C:/QuartusProjects/lab4/STOREREG.vhd|
-Z32 !s107 C:/QuartusProjects/lab4/STOREREG.vhd|
+Z29 !s108 1427707730.306000
+Z30 !s90 -reportprogress|300|-work|work|C:/Users/OEM/Documents/GitHub/VHDL_LAB/STOREREG.vhd|
+Z31 !s107 C:/Users/OEM/Documents/GitHub/VHDL_LAB/STOREREG.vhd|
+R12
 R13
-R14
 !s100 XOjPz[Q`KLYgMIXJfD1;X0
 !i10b 1
 Aarch
+R1
 R2
 R3
 R4
-R5
 DEx4 work 8 storereg 0 22 Xz?a[h9[Tzce7z4]Ed:5^0
 l17
 L16
 V8FT]_T>MT;]T>YB_fI5JR1
-R9
+R8
 32
+R29
 R30
 R31
-R32
+R12
 R13
-R14
 !s100 :W4R:e9P[>@g<FcUc]bSC1
 !i10b 1
-Etimer
-Z33 w1427688063
+Etest_timer
+Z32 w1427707719
+R1
 R2
 R3
 R4
 R5
-R6
-Z34 8C:/QuartusProjects/lab4/Timer.vhd
-Z35 FC:/QuartusProjects/lab4/Timer.vhd
+Z33 8C:/Users/OEM/Documents/GitHub/VHDL_LAB/test_timer.vhd
+Z34 FC:/Users/OEM/Documents/GitHub/VHDL_LAB/test_timer.vhd
+l0
+L6
+VmDEgOTW<:SPhJY1dGlYUP0
+R8
+32
+Z35 !s108 1427707730.493000
+Z36 !s90 -reportprogress|300|-work|work|C:/Users/OEM/Documents/GitHub/VHDL_LAB/test_timer.vhd|
+Z37 !s107 C:/Users/OEM/Documents/GitHub/VHDL_LAB/test_timer.vhd|
+R12
+R13
+!s100 aMJEX=Kd0ibOmXm;91acl0
+!i10b 1
+Aarch
+R1
+R2
+R3
+R4
+DEx4 work 10 test_timer 0 22 mDEgOTW<:SPhJY1dGlYUP0
+l29
+L9
+V[SjaY_GBHndhgFXVcYngP3
+R8
+32
+R35
+R36
+R37
+R12
+R13
+!s100 hnVJB<MLSSjPnl7Kk[3HL1
+!i10b 1
+Etimer
+Z38 w1427705632
+R1
+R2
+R3
+R4
+R5
+Z39 8C:/Users/OEM/Documents/GitHub/VHDL_LAB/Timer.vhd
+Z40 FC:/Users/OEM/Documents/GitHub/VHDL_LAB/Timer.vhd
 l0
 L6
 V5jXLSFzGjam_MRjGbdCC<0
 !s100 aEd^3IcAGLOLPXYDh0aQh2
-R9
+R8
 32
 !i10b 1
-Z36 !s108 1427688326.214000
-Z37 !s90 -reportprogress|300|-work|work|C:/QuartusProjects/lab4/Timer.vhd|
-Z38 !s107 C:/QuartusProjects/lab4/Timer.vhd|
+Z41 !s108 1427707730.655000
+Z42 !s90 -reportprogress|300|-work|work|C:/Users/OEM/Documents/GitHub/VHDL_LAB/Timer.vhd|
+Z43 !s107 C:/Users/OEM/Documents/GitHub/VHDL_LAB/Timer.vhd|
+R12
 R13
-R14
 Aarch
+R1
 R2
 R3
 R4
-R5
-DEx4 work 5 timer 0 22 5jXLSFzGjam_MRjGbdCC<0
+Z44 DEx4 work 5 timer 0 22 5jXLSFzGjam_MRjGbdCC<0
 l87
 L20
-V>ll@1AHWKKXPVUQnbm44K0
-!s100 C_495RNmL@AO2m:jl:eGR1
-R9
+Z45 V^ZITEbEB2?EPzhZNz6h?D1
+Z46 !s100 O?Z25fdLD8RVT6TkEDYPX0
+R8
 32
 !i10b 1
-R36
-R37
-R38
+R41
+R42
+R43
+R12
 R13
-R14
