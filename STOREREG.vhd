@@ -1,0 +1,24 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+ENTITY STOREREG IS 
+PORT(
+	New_Data			:	IN		STD_LOGIC_VECTOR(15 downto 0);
+	Load				:	IN		STD_LOGIC;
+	clk				:	IN 	STD_LOGIC;
+	Passed_Data		:	OUT 	STD_LOGIC_VECTOR(15 downto 0)
+);
+
+END ENTITY STOREREG;
+
+ARCHITECTURE arch OF STOREREG IS
+BEGIN
+	PROCESS(clk)
+		BEGIN
+		IF(rising_edge(clk) AND Load = '1')THEN
+			Passed_Data <= New_Data;
+		END IF;
+	END PROCESS;
+END ARCHITECTURE arch;

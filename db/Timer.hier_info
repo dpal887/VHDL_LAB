@@ -1,0 +1,25 @@
+|BCD_Counter
+Enable => temp.OUTPUTSELECT
+Enable => temp.OUTPUTSELECT
+Enable => temp.OUTPUTSELECT
+Enable => temp.OUTPUTSELECT
+Clock => temp[3].CLK
+Clock => temp[2].CLK
+Clock => temp[1].CLK
+Clock => temp[0].CLK
+Direction => temp.OUTPUTSELECT
+Direction => temp.OUTPUTSELECT
+Direction => temp.OUTPUTSELECT
+Direction => temp.OUTPUTSELECT
+Direction => temp.DATAB
+Direction => temp.DATAB
+Reset => temp.OUTPUTSELECT
+Reset => temp.OUTPUTSELECT
+Reset => temp.OUTPUTSELECT
+Reset => temp.OUTPUTSELECT
+Output[3] << temp[3].DB_MAX_OUTPUT_PORT_TYPE
+Output[2] << temp[2].DB_MAX_OUTPUT_PORT_TYPE
+Output[1] << temp[1].DB_MAX_OUTPUT_PORT_TYPE
+Output[0] << temp[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
