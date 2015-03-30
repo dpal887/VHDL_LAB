@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Timer
-Mon Mar 30 22:10:10 2015
+Tue Mar 31 09:44:33 2015
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -42,7 +42,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Mar 30 22:10:10 2015      ;
+; Analysis & Synthesis Status        ; Successful - Tue Mar 31 09:44:33 2015      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; Timer                                      ;
 ; Top-level Entity Name              ; BCD_Counter                                ;
@@ -250,7 +250,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Mon Mar 30 22:10:07 2015
+    Info: Processing started: Tue Mar 31 09:44:30 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Timer -c Timer
 Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
 Info (12021): Found 2 design units, including 1 entities, in source file test_timer.vhd
@@ -280,8 +280,8 @@ Info (21057): Implemented 23 device resources after synthesis - the final resour
     Info (21059): Implemented 4 output pins
     Info (21061): Implemented 15 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 526 megabytes
-    Info: Processing ended: Mon Mar 30 22:10:10 2015
+    Info: Peak virtual memory: 514 megabytes
+    Info: Processing ended: Tue Mar 31 09:44:33 2015
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 

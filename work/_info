@@ -17,7 +17,7 @@ L6
 VPXSU>l]gHzEafcj[Fh@N40
 Z8 OV;C;10.1d;51
 32
-Z9 !s108 1427707730.015000
+Z9 !s108 1427749257.172000
 Z10 !s90 -reportprogress|300|-work|work|C:/Users/OEM/Documents/GitHub/VHDL_LAB/BCD2SevenSeg.vhd|
 Z11 !s107 C:/Users/OEM/Documents/GitHub/VHDL_LAB/BCD2SevenSeg.vhd|
 Z12 o-work work -O0
@@ -56,7 +56,7 @@ L6
 VR93D19biEk0=E_zIbkC]k1
 R8
 32
-Z17 !s108 1427707729.867000
+Z17 !s108 1427749257.027000
 Z18 !s90 -reportprogress|300|-work|work|C:/Users/OEM/Documents/GitHub/VHDL_LAB/BCD_Counter.vhd|
 Z19 !s107 C:/Users/OEM/Documents/GitHub/VHDL_LAB/BCD_Counter.vhd|
 R12
@@ -93,7 +93,7 @@ L6
 V_SiiI7?g0W^TLcS8ba<@42
 R8
 32
-Z23 !s108 1427707730.168000
+Z23 !s108 1427749257.318000
 Z24 !s90 -reportprogress|300|-work|work|C:/Users/OEM/Documents/GitHub/VHDL_LAB/Comparator.vhd|
 Z25 !s107 C:/Users/OEM/Documents/GitHub/VHDL_LAB/Comparator.vhd|
 R12
@@ -130,7 +130,7 @@ L6
 VXz?a[h9[Tzce7z4]Ed:5^0
 R8
 32
-Z29 !s108 1427707730.306000
+Z29 !s108 1427749257.469000
 Z30 !s90 -reportprogress|300|-work|work|C:/Users/OEM/Documents/GitHub/VHDL_LAB/STOREREG.vhd|
 Z31 !s107 C:/Users/OEM/Documents/GitHub/VHDL_LAB/STOREREG.vhd|
 R12
@@ -169,7 +169,7 @@ L6
 VmDEgOTW<:SPhJY1dGlYUP0
 R8
 32
-Z35 !s108 1427707730.493000
+Z35 !s108 1427749257.591000
 Z36 !s90 -reportprogress|300|-work|work|C:/Users/OEM/Documents/GitHub/VHDL_LAB/test_timer.vhd|
 Z37 !s107 C:/Users/OEM/Documents/GitHub/VHDL_LAB/test_timer.vhd|
 R12
@@ -185,6 +185,7 @@ DEx4 work 10 test_timer 0 22 mDEgOTW<:SPhJY1dGlYUP0
 l29
 L9
 V[SjaY_GBHndhgFXVcYngP3
+!s100 hnVJB<MLSSjPnl7Kk[3HL1
 R8
 32
 R35
@@ -192,10 +193,9 @@ R36
 R37
 R12
 R13
-!s100 hnVJB<MLSSjPnl7Kk[3HL1
 !i10b 1
 Etimer
-Z38 w1427705632
+Z38 w1427749252
 R1
 R2
 R3
@@ -210,7 +210,7 @@ V5jXLSFzGjam_MRjGbdCC<0
 R8
 32
 !i10b 1
-Z41 !s108 1427707730.655000
+Z41 !s108 1427749257.719000
 Z42 !s90 -reportprogress|300|-work|work|C:/Users/OEM/Documents/GitHub/VHDL_LAB/Timer.vhd|
 Z43 !s107 C:/Users/OEM/Documents/GitHub/VHDL_LAB/Timer.vhd|
 R12
@@ -221,10 +221,10 @@ R2
 R3
 R4
 Z44 DEx4 work 5 timer 0 22 5jXLSFzGjam_MRjGbdCC<0
-l87
+l89
 L20
-Z45 V^ZITEbEB2?EPzhZNz6h?D1
-Z46 !s100 O?Z25fdLD8RVT6TkEDYPX0
+V45m1Hn[RVfX8lD2NS@iGI3
+!s100 ERZg007>QT7lASj4WJ?__2
 R8
 32
 !i10b 1

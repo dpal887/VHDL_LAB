@@ -84,7 +84,7 @@ signal Q_out_seconds,Q_out_seconds_tens, Q_out_minutes, Q_out_Minutes_tens : STD
 signal r, count 																				: STD_LOGIC := '0';
 signal loaded_value 																			: STD_LOGIC_VECTOR(15 downto 0);
 signal div_clk																					: STD_LOGIC;
-signal div_clk_count																			: INTEGER <= 0;
+signal div_clk_count																			: INTEGER := 0;
 
 	BEGIN
 --------------------------------------------------------------------------------------------
@@ -94,10 +94,10 @@ signal div_clk_count																			: INTEGER <= 0;
 --Resets are linked
 --Outputs are linked to Comparator and decoders
 --------------------------------------------------------------------------------------------
-	C1 : BCD_Counter 	PORT MAP (e1, Clock, '1', r, Q_out_Seconds);
-	C2 : BCD_Counter 	PORT MAP (e2, Clock, '1', r, Q_out_Seconds_tens);
-	C3 : BCD_Counter 	PORT MAP (e3, Clock, '1', r, Q_out_Minutes);
-	C4 : BCD_Counter 	PORT MAP (e4, Clock, '1', r, Q_out_Minutes_tens);
+	C1 : BCD_Counter 	PORT MAP (e1, div_clk, '1', r, Q_out_Seconds);
+	C2 : BCD_Counter 	PORT MAP (e2, div_clk, '1', r, Q_out_Seconds_tens);
+	C3 : BCD_Counter 	PORT MAP (e3, div_clk, '1', r, Q_out_Minutes);
+	C4 : BCD_Counter 	PORT MAP (e4, div_clk, '1', r, Q_out_Minutes_tens);
 --------------------------------------------------------------------------------------------
 --TODO: Change the '0''s to their expected values
 --------------------------------------------------------------------------------------------	
@@ -130,9 +130,9 @@ signal div_clk_count																			: INTEGER <= 0;
 --------------------------------------------------------------------------------------------
 --	Load a new value to count to if Load Enabled
 --------------------------------------------------------------------------------------------	
-	PROCESS(div_clk)
+	PROCESS(Clock)
 		BEGIN
-			IF(rising_edge(div_clk)) THEN
+			IF(rising_edge(Clock)) THEN
 				IF (Load = '1') THEN
 					loaded_value <= Data_In;
 				ELSE
@@ -141,10 +141,21 @@ signal div_clk_count																			: INTEGER <= 0;
 			END IF;
 	END PROCESS;
 --------------------------------------------------------------------------------------------	
+--Divides the clock to 1 second from 1ns
 --------------------------------------------------------------------------------------------	
-	PROCESS(Clock)
+	PROCESS(Clock, r)
 		BEGIN
-			div_clk_count += 1;
-	
-
+			div_clk_count <= div_clk_count + 1;
+			IF(r = '1') THEN
+				div_clk <= '0';
+				div_clk_count<= 0;
+			ELSIF(div_clk_count = 500000) THEN
+				div_clk_count <= 0;
+				IF(div_clk = '0') THEN
+					div_clk <= '1';
+				ELSE
+					div_clk <= '0';
+				END IF;
+			END IF;
+	END PROCESS;
 END ARCHITECTURE ARCH;
